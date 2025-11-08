@@ -1,0 +1,48 @@
+# Core RAG Dependencies
+faiss-cpu==1.8.0.post1
+numpy>=1.24,<2.0
+sentence-transformers==3.0.1
+transformers==4.44.2
+
+# LLM Inference
+llama-cpp-python==0.2.90
+torch==2.3.1
+
+# Search & Ranking
+rank-bm25==0.2.2
+scikit-learn>=1.4
+
+# Web Scraping
+beautifulsoup4==4.12.3
+lxml==5.2.2
+aiohttp==3.9.5
+
+# UI
+streamlit==1.37.0
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.4
+
+# Optional - Reranking (improves quality)
+# Uncomment if using CrossEncoder reranking
+# sentence-transformers  # Already included above
+
+# Development/Testing
+pytest==8.2.2
+pytest-asyncio==0.23.7
+
+# For GPU monitoring (optional)
+# Uncomment if you want to monitor GPU usage
+# py3nvml==0.2.7
+
+# Notes:
+# - llama-cpp-python: Requires CMake for GPU support
+#   For CUDA support: CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python
+#   For CPU only: pip install llama-cpp-python
+# 
+# - faiss-cpu: Use faiss-gpu if you want FAISS on GPU (requires CUDA)
+#   pip install faiss-gpu
+#
+# - torch: Adjust version based on your CUDA version
+#   See: https://pytorch.org/get-started/locally/

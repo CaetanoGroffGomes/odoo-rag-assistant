@@ -1,0 +1,246 @@
+modules:
+  site:
+    title: "Sites"
+    keywords: [site, website, página, landing, tema, construtor, seo, formulário, "chat ao vivo", livechat]
+    regex:
+      - "\\b(site|website|landing|tema|seo|formul[aá]rio|live ?chat)\\b"
+
+  ecommerce:
+    title: "e-Commerce"
+    keywords: [ecommerce, e-commerce, loja, carrinho, checkout, pagamento, frete, produto, variação, cupom]
+    regex:
+      - "\\b(e-?commerce|loja|carrinho|checkout|pagamento|frete|varia[cç][aã]o|cupom)\\b"
+
+  blog:
+    title: "Blog"
+    keywords: [blog, post, artigo, conteúdo]
+    regex: ["\\b(blog|post|artigo|conte[uú]do)\\b"]
+
+  forum:
+    title: "Fórum"
+    keywords: [fórum, comunidade, perguntas, respostas, q&a]
+    regex: ["\\b(f[óo]rum|comunidade|perguntas?|respostas?|q\\s*&\\s*a)\\b"]
+
+  elearning:
+    title: "e-Learning"
+    keywords: [elearning, e-learning, curso, lição, quiz, certificação, lms]
+    regex: ["\\b(e-?learning|curso|li[cç][aã]o|quiz|certifica[cç][aã]o|lms)\\b"]
+
+  events:
+    title: "Eventos"
+    keywords: [evento, inscrições, bilhete, ticket, palestrante, agenda]
+    regex: ["\\b(eventos?|inscri[cç][oõ]es?|bilhetes?|tickets?|palestrantes?|agenda)\\b"]
+
+  sales:
+    title: "Vendas"
+    keywords: [vendas, pedido de venda, orçamento, cotação, cliente, proposta, tabela de preço, impostos]
+    regex:
+      - "\\b(vendas?|pedido de venda|or[cç]amento|cota[cç][aã]o|proposta|tabela de pre[cç]o|cliente)\\b"
+
+  crm:
+    title: "CRM"
+    keywords: [crm, oportunidade, lead, pipeline, funil, prospecção, atividade]
+    regex: ["\\b(crm|oportunidade|leads?|pipeline|funil|prospec[cç][aã]o|atividade)\\b"]
+
+  pos:
+    title: "Ponto de Venda"
+    keywords: [pdv, pos, frente de caixa, recibo, sessão, caixa]
+    regex: ["\\b(pdv|pos|ponto de venda|frente de caixa|recibos?|sess[aã]o|caixa)\\b"]
+
+  restaurant:
+    title: "Restaurante"
+    keywords: [restaurante, mesa, comanda, cozinha, garçom, cardápio]
+    regex: ["\\b(restaurante|mesa|comanda|cozinha|gar[cç]om|card[aá]pio)\\b"]
+
+  subscriptions:
+    title: "Assinaturas (recorrência)"
+    keywords: [assinatura, recorrente, plano, cobrança recorrente, mensalidade]
+    regex: ["\\b(assinaturas?|recorr[êe]nte|mensalidade|cobran[cç]a recorrente|plano)\\b"]
+
+  rental:
+    title: "Locação"
+    keywords: [locação, aluguel, reserva, contrato de locação]
+    regex: ["\\b(loca[cç][aã]o|aluguel|reserva|contrato de loca[cç][aã]o)\\b"]
+
+  invoicing:
+    title: "Faturamento"
+    keywords: [fatura, faturamento, nota, nfe, nfse, boleto, remessa, cobrança]
+    regex: ["\\b(fatura(mento)?|nota( fiscal)?|nf[se]|boleto|remessa|cobran[cç]a)\\b"]
+
+  accounting:
+    title: "Contábil/Fiscal"
+    keywords: [contabilidade, fiscal, dre, razão, balanço, cfop, ncm, impostos, speds, ecd, ecf, conciliação]
+    regex:
+      - "\\b(contabilidade|fiscal|dre|raz[aã]o|balan[cç]o|cfop|ncm|impostos?|speds?|ecd|ecf|concilia[cç][aã]o)\\b"
+
+  expenses:
+    title: "Despesas"
+    keywords: [despesa, ressarcimento, adiantamento, comprovante, política de despesas]
+    regex: ["\\b(despesas?|ressarcimento|adiantamento|comprovante|pol[ií]tica de despesas)\\b"]
+
+  payments:
+    title: "Pagamentos Online"
+    keywords: [pagamento online, gateway, cartão, pix, paypal, stripe]
+    regex: ["\\b(pagamento online|gateway|cart[aã]o|pix|paypal|stripe)\\b"]
+
+  project:
+    title: "Projetos"
+    keywords: [projeto, tarefa, kanban, cronograma, marcos, dependência]
+    regex: ["\\b(projetos?|tarefas?|kanban|cronograma|marcos?|depend[eê]ncia)\\b"]
+
+  timesheets:
+    title: "Planilhas de Horas"
+    keywords: [timesheet, apontamento, horas, timesheets, folha de horas]
+    regex: ["\\b(timesheets?|apontamento|folha de horas|lan[cç]amento de horas?)\\b"]
+
+  field_service:
+    title: "Serviço de Campo"
+    keywords: [serviço de campo, visita técnica, rota, intervenção, ordem de serviço]
+    regex: ["\\b(servi[cç]o de campo|visita t[eé]cnica|rota|interven[cç][aã]o|ordem de servi[cç]o)\\b"]
+
+  helpdesk:
+    title: "Central de Ajuda"
+    keywords: [helpdesk, suporte, ticket, sla, base de conhecimento, satisfação]
+    regex: ["\\b(helpdesk|suporte|tickets?|sla|base de conhecimento|satisfa[cç][aã]o)\\b"]
+
+  planning:
+    title: "Planejamento"
+    keywords: [planejamento, alocação, escala, turnos, capacidade]
+    regex: ["\\b(planejamento|aloca[cç][aã]o|escala|turnos?|capacidade)\\b"]
+
+  calendar:
+    title: "Calendário"
+    keywords: [calendário, compromisso, reunião, agenda, eventos internos]
+    regex: ["\\b(calend[aá]rio|compromissos?|reuni[aã]o|agenda)\\b"]
+
+  documents:
+    title: "Documentos"
+    keywords: [documentos, gestão de documentos, dms, pasta, etiqueta]
+    regex: ["\\b(documentos?|gest[aã]o de documentos|dms|pastas?|etiquetas?)\\b"]
+
+  sign:
+    title: "Assinar (e-signature)"
+    keywords: [assinar, assinatura eletrônica, e-sign, e-signature, contrato]
+    regex: ["\\b(assinar|assinatura eletr[oô]nica|e-?sign(ature)?|contratos?)\\b"]
+
+  spreadsheet:
+    title: "Planilha"
+    keywords: [planilha, spreadsheet, xls, excel, tabela]
+    regex: ["\\b(planilhas?|spreadsheet|xls|excel|tabela)\\b"]
+
+  knowledge:
+    title: "Conhecimento"
+    keywords: [knowledge, base de conhecimento, wiki, artigos internos]
+    regex: ["\\b(knowledge|base de conhecimento|wiki|artigos? internos?)\\b"]
+
+  inventory:
+    title: "Inventário"
+    keywords: [estoque, inventário, picking, transferência, wms, lote, série, multi-estoque]
+    regex: ["\\b(estoque|invent[aá]rio|picking|transfer[eê]ncia|wms|lotes?|s[ée]rie|multi-estoque)\\b"]
+
+  purchase:
+    title: "Compras"
+    keywords: [compra, pedido de compra, fornecedor, cotação de compra, abastecimento]
+    regex: ["\\b(compras?|pedido de compra|fornecedor(?:es)?|cota[cç][aã]o de compra|abastecimento)\\b"]
+
+  mrp:
+    title: "Fabricação"
+    keywords: [fabricação, mrp, ordem de produção, bom, lista de materiais, operação]
+    regex:
+      - "\\b(fabrica[cç][aã]o|mrp|ordem de produ[cç][aã]o|lista de materiais|bom|opera[cç][aã]o)\\b"
+
+  barcode:
+    title: "Código de Barras"
+    keywords: [código de barras, escanear, scanner, etiqueta]
+    regex: ["\\b(c[oó]digo de barras|scanner|escanear|etiquetas?)\\b"]
+
+  quality:
+    title: "Qualidade"
+    keywords: [qualidade, controle de qualidade, qc, não conformidade]
+    regex: ["\\b(qualidade|controle de qualidade|qc|n[aã]o conformidade)\\b"]
+
+  maintenance:
+    title: "Manutenção"
+    keywords: [manutenção, preventiva, corretiva, mttr, mtbf]
+    regex: ["\\b(manu­ten[cç][aã]o|preventiva|corretiva|mttr|mtbf)\\b"]
+
+  repairs:
+    title: "Reparos"
+    keywords: [reparo, rma, conserto]
+    regex: ["\\b(reparos?|rma|conserto)\\b"]
+
+  plm:
+    title: "PLM"
+    keywords: [plm, engenharia, alteração de engenharia, ecn]
+    regex: ["\\b(plm|engenharia|altera[cç][aã]o de engenharia|ecn)\\b"]
+
+  email_marketing:
+    title: "Marketing de E-mail"
+    keywords: [email marketing, newsletter, campanha, lista]
+    regex: ["\\b(e-?mail marketing|newsletter|campanha|lista de e-?mails?)\\b"]
+
+  marketing_automation:
+    title: "Automação de Marketing"
+    keywords: [automação, jornada, campanha automática, gatilho]
+    regex: ["\\b(automa[cç][aã]o de marketing|jornada|campanha autom[aá]tica|gatilho)\\b"]
+
+  sms_marketing:
+    title: "Marketing por SMS"
+    keywords: [sms, disparo sms, campanha sms]
+    regex: ["\\b(sms|campanha sms|disparo de sms)\\b"]
+
+  survey:
+    title: "Pesquisa"
+    keywords: [pesquisa, questionário, formulário, survey]
+    regex: ["\\b(pesquisas?|question[aá]rio|formul[aá]rio|survey)\\b"]
+
+  social:
+    title: "Redes Sociais"
+    keywords: [rede social, social, facebook, instagram, linkedin, agendamento]
+    regex: ["\\b(rede(?:s)? sociais?|facebook|instagram|linkedin|agendamento)\\b"]
+
+  employees:
+    title: "Funcionários"
+    keywords: [funcionários, dossiê, contrato, cargo]
+    regex: ["\\b(funcion[aá]rios?|dossi[eê]|contratos?|cargo)\\b"]
+
+  attendance:
+    title: "Controle de Presença"
+    keywords: [presença, ponto, batida, jornada]
+    regex: ["\\b(presen[cç]a|ponto|batida|jornada)\\b"]
+
+  recruitment:
+    title: "Recrutamento"
+    keywords: [recrutamento, vaga, candidato, pipeline]
+    regex: ["\\b(recrutamento|vaga|candidato|pipeline)\\b"]
+
+  time_off:
+    title: "Folga"
+    keywords: [folga, férias, ausência, licença]
+    regex: ["\\b(folga|f[eé]rias|aus[eê]ncia|licen[cç]a)\\b"]
+
+  appraisal:
+    title: "Avaliações"
+    keywords: [avaliação, desempenho, feedback, 1:1]
+    regex: ["\\b(avalia[cç][aã]o|desempenho|feedback|1\\s*[:x]\\s*1)\\b"]
+
+  fleet:
+    title: "Frota"
+    keywords: [frota, veículo, manutenção de veículo, combustível]
+    regex: ["\\b(frota|ve[ií]culo|manuten[cç][aã]o de ve[ií]culo|combust[ií]vel)\\b"]
+
+  payroll:
+    title: "Folha de Pagamento"
+    keywords: [folha de pagamento, holerite, salário, impostos folha]
+    regex: ["\\b(folha de pagamento|holerite|sal[aá]rio|impostos? da folha)\\b"]
+
+  studio:
+    title: "Estúdio"
+    keywords: [studio, estúdio, personalização, campo, modelo, qweb, relatório pdf, ação automatizada, api, webhook, desenvolvedor]
+    regex:
+      - "\\b(studio|est[uú]dio|personaliza[cç][aã]o|qweb|relat[oó]rio pdf|a[cç][aã]o automatizada|webhook|api|desenvolvedor)\\b"
+
+  general:
+    title: "Geral"
+    keywords: [configuração, usuário, permissão, tradução, interface, atalhos, iot, integração, e-mail]
+    regex: ["\\b(configura[cç][aã]o|usu[aá]rio|permiss[aõ]es?|tradu[cç][aã]o|interface|atalhos?|iot|integra[cç][aã]o|e-?mail)\\b"]
